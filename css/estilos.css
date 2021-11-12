@@ -1,20 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Arial';
     background: #cecece;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 header {
     border: 1px solid #000;
+    background: #ff6000;
+    box-shadow: -85px 13px 36px -1px rgba(0,0,0,0.75);
+    margin-bottom: 30px;
 }
 
 h1 {
     font-size: 40px;
-    color: #ff8000;
+    color: #fffaff;
+}
+
+.slogan {
+    font-weight: normal;
 }
 
 main article {
@@ -22,17 +31,17 @@ main article {
     margin: 30px, 0;
     padding: 10px;
     width: 500px;
-    background: #fff;
+    background: violet;
     margin-bottom: 20px;
 }
 
 p {
     display: inline-block;
     font-size: 23px;
-    width: 30%;
+    width: 50%;
     text-align: left;
-    margin: auto;
-
+    position: relative;
+    bottom: 50px;
 }
 
 h3 {
@@ -41,6 +50,8 @@ h3 {
 }
 
 img {
+    border-radius: 100px;
+    border: 1px solid #000;
     width: 200px;
 }
 
@@ -48,4 +59,6 @@ footer {
     width: 100%;
     padding: 20px;
     background: #5e5e5e5e;
+    position: fixed;
+    bottom: 0;
 }
