@@ -17,6 +17,14 @@ header {
     margin-bottom: 30px;
 }
 
+figure {
+    text-align: start;
+    display: inline-block;
+}
+.logo {
+    border: none;
+}
+
 h1 {
     font-size: 40px;
     color: #fffaff;
